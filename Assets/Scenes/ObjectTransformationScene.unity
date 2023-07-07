@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1258
+  m_Name: pb_Mesh-35930
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -364,7 +364,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1228
+  m_Name: pb_Mesh-35900
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -528,7 +528,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1196
+  m_Name: pb_Mesh-35868
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -914,7 +914,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1214
+  m_Name: pb_Mesh-35886
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1079,26 +1079,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 227119132, guid: 7bac0ca3023171549ba6798a5029ea6a, type: 3}
-      propertyPath: ObjectToTranslate
-      value: 
-      objectReference: {fileID: 356331182}
     - target: {fileID: 515210302466485120, guid: 7bac0ca3023171549ba6798a5029ea6a, type: 3}
       propertyPath: m_Name
       value: ObjectToView(Clone)
-      objectReference: {fileID: 0}
-    - target: {fileID: 809602290415873657, guid: 7bac0ca3023171549ba6798a5029ea6a, type: 3}
-      propertyPath: HorizontalDrag
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1934771444204366568, guid: 7bac0ca3023171549ba6798a5029ea6a, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1982414747}
-    - target: {fileID: 2163573844576305980, guid: 7bac0ca3023171549ba6798a5029ea6a, type: 3}
-      propertyPath: HorizontalDrag
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2707569325220249427, guid: 7bac0ca3023171549ba6798a5029ea6a, type: 3}
       propertyPath: m_RootOrder
       value: 4
