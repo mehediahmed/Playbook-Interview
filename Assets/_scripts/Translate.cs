@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Translate : ObjectTransformation
 {
-    public bool BeginDrag = false;
     public Vector3 Offset;
     private Vector3 mousePosition;
     public override void Transform()
     {
-        //ObjectToTranslate.transform.Translate();
+        ObjectToTranslate.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition - mousePosition);
     }
 
     private Vector3 GetMousePos() 
@@ -20,8 +19,5 @@ public class Translate : ObjectTransformation
     {
         mousePosition = Input.mousePosition - GetMousePos();
     }
-    private void OnMouseDrag()
-    {
-        ObjectToTranslate.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition - mousePosition);
-    }
+
 }

@@ -34,10 +34,7 @@ public class ObjectViewer : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Click");
-
             clickObject();
-
         }
         else if (Input.GetMouseButton(0))
         {
