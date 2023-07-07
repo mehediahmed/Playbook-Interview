@@ -499,7 +499,6 @@ MonoBehaviour:
   HorizontalDrag: 1
   VerticalDrag: 1
   ObjectToTranslate: {fileID: 515210302466485120}
-  TranslateVector: {x: 0, y: 0, z: 0}
   Offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1028249134433015680
 GameObject:
@@ -12871,7 +12870,6 @@ MonoBehaviour:
   HorizontalDrag: 1
   VerticalDrag: 0
   ObjectToTranslate: {fileID: 1028249134433015680}
-  TranslateVector: {x: 0, y: 0, z: 0}
   AxisOfRotation: {x: 0, y: 1, z: 0}
 --- !u!1 &7897934286043331002
 GameObject:
@@ -25020,7 +25018,6 @@ MonoBehaviour:
   HorizontalDrag: 0
   VerticalDrag: 1
   ObjectToTranslate: {fileID: 1028249134433015680}
-  TranslateVector: {x: 0, y: 0, z: 0}
   AxisOfRotation: {x: 1, y: 0, z: 0}
 --- !u!1 &8371210028368068927
 GameObject:
@@ -37169,7 +37166,6 @@ MonoBehaviour:
   HorizontalDrag: 0
   VerticalDrag: 1
   ObjectToTranslate: {fileID: 1028249134433015680}
-  TranslateVector: {x: 0, y: 0, z: 0}
   AxisOfRotation: {x: 0, y: 0, z: 1}
 --- !u!1 &9080597621190812842
 GameObject:
@@ -37282,4 +37278,3 @@ MonoBehaviour:
   HorizontalDrag: 1
   VerticalDrag: 0
   ObjectToTranslate: {fileID: 1028249134433015680}
-  TranslateVector: {x: 0, y: 0, z: 0}

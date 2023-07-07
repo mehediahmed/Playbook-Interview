@@ -14,6 +14,7 @@ public class ObjectViewer : MonoBehaviour
     #region private variables
     private static ObjectViewer _instance;
     private ObjectTransformation objectTransformation;
+    private GameObject objectToViewInstance;
     #endregion
 
 
@@ -30,6 +31,11 @@ public class ObjectViewer : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        objectToViewInstance = Instantiate(objectToView);
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -40,6 +46,14 @@ public class ObjectViewer : MonoBehaviour
         {
             releaseObject();
         }
+    }
+    #endregion
+
+    #region Public Methods
+    public void ResetObject() 
+    {
+        Destroy(objectToViewInstance);
+        objectToViewInstance = Instantiate(objectToView);
     }
     #endregion
 
