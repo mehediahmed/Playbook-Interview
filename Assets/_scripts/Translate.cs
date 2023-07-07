@@ -11,10 +11,11 @@ public class Translate : ObjectTransformation
         ObjectToTranslate.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition - mousePosition);
     }
 
-    private Vector3 GetMousePos() 
+    private Vector3 GetMousePos()
     {
         return Camera.main.WorldToScreenPoint(transform.position);
     }
+
     private void OnMouseDown()
     {
         mousePosition = Input.mousePosition - GetMousePos();
