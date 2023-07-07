@@ -8,8 +8,6 @@ public abstract class ObjectTransformation : MonoBehaviour
     public bool VerticalDrag = true;
     public GameObject ObjectToTranslate;
 
-    [HideInInspector]
-    public Vector3 TranslateVector;
     public virtual void Transform()
     {
 

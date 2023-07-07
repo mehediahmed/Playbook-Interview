@@ -46,6 +46,7 @@ public class ObjectViewer : MonoBehaviour
     #region Private Methods
     private void clickObject()
     {
+        objectTransformation = null;
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
